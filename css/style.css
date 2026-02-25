@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #111;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #81c5db;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left:20px;
+}
+
+nav ul li a {
+    color:rgb(150, 204, 209);
+    text-decoration: none;
+}
+
+.hero {
+    height:100vh;
+    background:linear-gradient(135deg, #E55D87, #5FC3E4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+    padding-top: 80px;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #00c6ff;
+    color: blue;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.section {
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.dark {
+    background: #f4f4f4;
+} 
+
+.skills {
+    max-width: 600px;
+    margin: 20px auto;  
+}
+
+.bar {
+    background: #ddd;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+}
+
+.Dormir { width: 90%; background: #0c5f52;}
+.Estudiar { width: 35%; background: #64dbc5;}
+.JugarRoblox { width: 85%; background: #8ec6eb;}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #111;
+    Color: white;
+    text-align: center;
+    padding: 20px
+    ;
+}
+
